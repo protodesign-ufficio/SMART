@@ -18,12 +18,13 @@ Repository di coordinamento del progetto SMART
 
 - [KAFKA-SERVICES](https://github.com/protodesign-ufficio/SMART-KAFKA-SERVICES)  
   Include i servizi consumer dei topic Kafka:
-  - **CREATECK**: parte logica  
-  - **DIGIPLUS**: sviluppo dei servizi  
+  - **DIGIPLUS**: sviluppo dei [servizi](https://github.com/protodesign-ufficio/SMART-KAFKA-SERVICES)
+  - **CREATECK**: formulazione analitica, algoritmi e logica dei servizi 
+    
 
 - [LIVING-MAP](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
   Include l'intero frontend, Living Map e dashboard analytics:
-  - **ANALYST**: [Living Map (livingmap)]()  
+  - **ANALYST**: [Living Map (livingmap)](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
   - **DIGIPLUS**: [dashboard analytics](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/dashboard), [Gantt](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/gantt)
   
 
