@@ -1,6 +1,30 @@
 # SMART
 Repository di coordinamento del progetto SMART
 
+
+## Glossario
+
+| Termine        | Descrizione                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| DSS            | Decision Support System: sistema per il supporto alle decisioni operative   |
+| Microservizi   | Architettura software composta da servizi indipendenti e scalabili          |
+| API Gateway    | Punto di accesso unico per l’esposizione e gestione delle API               |
+| Data ingestion | Processo di acquisizione e integrazione dei dati da diverse sorgenti        |
+| Streaming dati | Trasmissione continua di dati in tempo reale                                |
+| Kafka          | Piattaforma distribuita per lo streaming e la gestione dei dati             |
+| Telegraf       | Agente per la raccolta e l’invio di metriche e dati                         |
+| DBMS           | Sistema di gestione di database                                             |
+| PostGIS        | Estensione spaziale di PostgreSQL per dati georeferenziati                  |
+| Routing        | Calcolo dei percorsi ottimali                                               |
+| Scheduling     | Pianificazione delle attività nel tempo                                     |
+| Forecasting    | Previsione di eventi futuri basata su dati storici                          |
+| Simulazione    | Riproduzione virtuale di scenari per analisi e test                         |
+| Replanning     | Ricalcolo dinamico dei piani in base a nuove condizioni                     |
+| Data Visualization | Rappresentazione grafica dei dati                                       |
+| Living Map     | Mappa interattiva con dati aggiornati in tempo reale                        |
+| Gantt          | Strumento di pianificazione temporale delle attività                        |
+
+
 ## Repository collegate
 
 - [DSS](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES)  
@@ -17,9 +41,9 @@ Repository di coordinamento del progetto SMART
     - [telemetry_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/telemetry_service)  
     - [weather_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/weather_service)  
 
-    **Partner**: JUSTWEB  
-    - *Competenze*: sviluppo backend, microservizi, integrazione sistemi, gestione dati real-time  
-    - *Tecnologie*: REST API, database relazionali, servizi telemetry e meteo  
+ 
+    *Competenze*: sviluppo backend, microservizi, integrazione sistemi, gestione dati real-time  
+    *Tecnologie*: Python, REST API, database relazionali, servizi telemetry e meteo  
 
   - **CREATECK**  
     Servizi per previsione, simulazione, pianificazione e ottimizzazione dei processi.  
@@ -29,9 +53,9 @@ Repository di coordinamento del progetto SMART
     - [simulator_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/simulator_service)  
     - [replanning_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/SMART_replanning_service)  
 
-    **Partner**: CREATECK  
-    - *Competenze*: modellazione matematica, ottimizzazione, algoritmi decisionali, simulazione  
-    - *Tecnologie*: Python, librerie scientifiche, modelli previsionali  
+
+    *Competenze*: modellazione matematica, ottimizzazione, algoritmi decisionali, simulazione  
+    *Tecnologie*: Python, librerie scientifiche, modelli previsionali  
 
 
 - [KAFKA-TELEGRAF](https://github.com/protodesign-ufficio/SMART-KAFKA-TELEGRAF)  
@@ -39,47 +63,46 @@ Repository di coordinamento del progetto SMART
   Include configurazioni per raccolta, trasformazione e inoltro dei dati.
 
   - **JUSTWEB**  
-    - *Competenze*: data ingestion, gestione pipeline dati, integrazione sistemi  
-    - *Tecnologie*: Apache Kafka, Telegraf  
+    *Competenze*: data ingestion, gestione pipeline dati, integrazione sistemi  
+    *Tecnologie*: Apache Kafka, Telegraf  
 
 
 - [DATABASE](https://github.com/protodesign-ufficio/DBs)  
   **Descrizione**: repository per la definizione, creazione e gestione delle strutture dati persistenti del sistema.
 
   - **JUSTWEB**  
-    - *Competenze*: progettazione database, modellazione dati  
-    - *Tecnologie*: SQL, database relazionali  
+    *Competenze*: progettazione database, modellazione dati  
+    *Tecnologie*: SQL, database relazionali, PostgreSQL, PostGIS  
 
 
 - [KAFKA-SERVICES](https://github.com/protodesign-ufficio/SMART-KAFKA-SERVICES)  
   **Descrizione**: servizi applicativi che consumano i topic Kafka e implementano la logica di elaborazione dei dati.
 
   - **DIGIPLUS**  
-    Sviluppo e integrazione dei servizi applicativi.  
-    - *Competenze*: sviluppo backend, integrazione microservizi  
-    - *Tecnologie*: client Kafka, REST API  
+    Sviluppo e integrazione dei servizi.  
+    *Competenze*: sviluppo backend, integrazione microservizi  
+    *Tecnologie*: client Kafka, REST API, Python  
 
   - **CREATECK**  
     Definizione della logica analitica e degli algoritmi.  
-    - *Competenze*: analisi dati, algoritmi, modellazione  
-    - *Tecnologie*: Python, librerie di calcolo  
+    *Competenze*: analisi dati, algoritmi, modellazione  
+    *Tecnologie*: Python, librerie di calcolo  
 
 
 - [LIVING-MAP](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
   **Descrizione**: frontend del sistema con componenti di visualizzazione dati, dashboard analytics e mappa interattiva.
 
   - **ANALYST**  
-    [Living Map](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
-    - *Competenze*: visualizzazione dati geospaziali, UI interattive  
-    - *Tecnologie*: JavaScript, librerie di mapping  
+    -[Living Map](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)
+
+
+    *Competenze*: visualizzazione dati geospaziali, UI interattive  
+    *Tecnologie*: JavaScript, librerie di mapping  
 
   - **DIGIPLUS**  
-    [dashboard analytics](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/dashboard),  
-    [Gantt](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/gantt)  
-    - *Competenze*: sviluppo frontend, data visualization  
-    - *Tecnologie*: HTML, CSS, JavaScript  
-
-
-## Documentazione
-
-La documentazione degli specifici moduli è disponibile nella cartella `docs/` del repository associato.
+    - [dashboard analytics](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/dashboard),  
+    - [Gantt](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/gantt)
+ 
+      
+    *Competenze*: sviluppo frontend, data visualization  
+    *Tecnologie*: HTML, CSS, JavaScript  
