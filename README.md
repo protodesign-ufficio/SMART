@@ -10,21 +10,22 @@ Repository di coordinamento del progetto SMART
 
 - [KAFKA-TELEGRAF](https://github.com/protodesign-ufficio/SMART-KAFKA-TELEGRAF)  
   Include le configurazioni di Kafka e Telegraf per l'ingestione dei dati:
-  - JUSTWEB  
+  - **JUSTWEB**  
 
 - [DATABASE](https://github.com/protodesign-ufficio/SMART-KAFKA-TELEGRAF)  
   Include la creazione del DB:
-  - JUSTWEB  
+  - **JUSTWEB**  
 
 - [KAFKA-SERVICES](https://github.com/protodesign-ufficio/SMART-KAFKA-SERVICES)  
   Include i servizi consumer dei topic Kafka:
   - **CREATECK**: parte logica  
-  - **JUSTWEB**: sviluppo dei servizi  
+  - **DIGIPLUS**: sviluppo dei servizi  
 
 - [LIVING-MAP](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
   Include l'intero frontend, Living Map e dashboard analytics:
-  - **DIGIPLUS**: dashboard analytics (file.html, file2.html)  
   - **ANALYST**: Living Map (livingmap)  
+  - **DIGIPLUS**: dashboard analytics (file.html, file2.html)  
+  
 
 ## Documentazione
 
