@@ -24,7 +24,7 @@ Repository di coordinamento del progetto SMART
 - [LIVING-MAP](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
   Include l'intero frontend, Living Map e dashboard analytics:
   - **ANALYST**: Living Map (livingmap)  
-  - **DIGIPLUS**: dashboard analytics (file.html, file2.html)  
+  - **DIGIPLUS**: dashboard analytics (file.html, file2.html), Gantt
   
 
 ## Documentazione
