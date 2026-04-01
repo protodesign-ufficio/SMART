@@ -2,12 +2,15 @@
 Repository di coordinamento del progetto SMART
 
 
+
 ## Glossario
 
 | Termine        | Descrizione                                                                 |
 |----------------|-----------------------------------------------------------------------------|
 | DSS            | Decision Support System: sistema per il supporto alle decisioni operative   |
 | Microservizi   | Architettura software composta da servizi indipendenti e scalabili          |
+| API            | Application Programming Interface: interfaccia che permette la comunicazione tra sistemi software |
+| API REST       | API basate su architettura REST che utilizzano HTTP per operazioni su risorse (GET, POST, PUT, DELETE) |
 | API Gateway    | Punto di accesso unico per l’esposizione e gestione delle API               |
 | Data ingestion | Processo di acquisizione e integrazione dei dati da diverse sorgenti        |
 | Streaming dati | Trasmissione continua di dati in tempo reale                                |
@@ -23,7 +26,6 @@ Repository di coordinamento del progetto SMART
 | Data Visualization | Rappresentazione grafica dei dati                                       |
 | Living Map     | Mappa interattiva con dati aggiornati in tempo reale                        |
 | Gantt          | Strumento di pianificazione temporale delle attività                        |
-
 
 ## Repository collegate
 
