@@ -93,7 +93,7 @@ Repository di coordinamento del progetto SMART
   **Descrizione**: frontend del sistema con componenti di visualizzazione dati, dashboard analytics e mappa interattiva.
 
   - **ANALYST**  
-    -[Living Map](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)
+    - [Living Map](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)
 
 
     *Competenze*: visualizzazione dati geospaziali, UI interattive  
