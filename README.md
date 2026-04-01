@@ -3,8 +3,8 @@ Repository di coordinamento del progetto SMART
 
 ## Repository collegate
 
-- [DSS](https://github.com/protodesign-ufficio/SMART-DSS)  
-  Include la logica di gestione del db e i servizi:
+- [DSS](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES)  
+  Include la logica di gestione dei db e i servizi:
   - **TRAVELMAR**: api-gateway (app), anagrafica_service, alerting_service, operativo_service, percorsi_service, telemetry_service, weather_service  
   - **CREATECK**: forecast_service, routing_service, scheduling_service, simulator_service, replanning_service  
 
