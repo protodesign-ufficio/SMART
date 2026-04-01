@@ -108,3 +108,14 @@ Repository di coordinamento del progetto SMART
       
     *Competenze*: sviluppo frontend, data visualization  
     *Tecnologie*: HTML, CSS, JavaScript  
+
+
+## Riepilogo partner
+
+| Partner   | Ambito principale                     |
+|-----------|--------------------------------------|
+| TRAVELMAR | backend, ingestion, database         |
+| JUSTWEB   | ingestion, database, data pipeline   |
+| CREATECK  | algoritmi, ottimizzazione, DSS       |
+| DIGIPLUS  | frontend, dashboard                  |
+| ANALYST   | visualizzazione geospaziale          |
