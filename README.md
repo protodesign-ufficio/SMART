@@ -5,14 +5,14 @@ Repository di coordinamento del progetto SMART
 
 - [DSS](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES)  
   Include la logica di gestione dei db e i servizi:
-  - **TRAVELMAR**: api-gateway (app), anagrafica_service, alerting_service, operativo_service, percorsi_service, telemetry_service, weather_service  
-  - **CREATECK**: forecast_service, routing_service, scheduling_service, simulator_service, replanning_service  
+  - **TRAVELMAR**: [api-gateway](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/app), [anagrafica_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/anagrafica_service), [alerting_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/alerting_service), [operativo_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/operativo_service), [percorsi_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/percorsi_service), [telemetry_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/telemetry_service), [weather_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/weather_service)  
+  - **CREATECK**: [forecast_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/forecast_service), [routing_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/routing_service), [scheduling_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/scheduling_service), [simulator_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/simulator_service), [replanning_service](https://github.com/protodesign-ufficio/SMART-DSS-MICROSERVICES/tree/main/SMART_replanning_service)  
 
 - [KAFKA-TELEGRAF](https://github.com/protodesign-ufficio/SMART-KAFKA-TELEGRAF)  
   Include le configurazioni di Kafka e Telegraf per l'ingestione dei dati:
-  - **JUSTWEB**  
+  - **JUSTWEB**
 
-- [DATABASE](https://github.com/protodesign-ufficio/SMART-KAFKA-TELEGRAF)  
+- [DATABASE](https://github.com/protodesign-ufficio/DBs)  
   Include la creazione del DB:
   - **JUSTWEB**  
 
@@ -23,8 +23,8 @@ Repository di coordinamento del progetto SMART
 
 - [LIVING-MAP](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
   Include l'intero frontend, Living Map e dashboard analytics:
-  - **ANALYST**: Living Map (livingmap)  
-  - **DIGIPLUS**: dashboard analytics (file.html, file2.html), Gantt
+  - **ANALYST**: [Living Map (livingmap)]()  
+  - **DIGIPLUS**: [dashboard analytics](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/dashboard), [Gantt](https://github.com/protodesign-ufficio/SMART-LIVINGMAP/tree/main/static/gantt)
   
 
 ## Documentazione
