@@ -112,10 +112,10 @@ Repository di coordinamento del progetto SMART
 
 ## Riepilogo partner
 
-| Partner   | Ambito principale                     |
-|-----------|--------------------------------------|
-| TRAVELMAR | backend, ingestion, database         |
-| JUSTWEB   | ingestion, database, data pipeline   |
-| CREATECK  | algoritmi, ottimizzazione, DSS       |
-| DIGIPLUS  | frontend, dashboard                  |
-| ANALYST   | visualizzazione geospaziale          |
+| Partner   | Ambito principale                                                                 |
+|-----------|------------------------------------------------------------------------------------|
+| TRAVELMAR | servizi operativi del DSS, backend a microservizi, monitoraggio e integrazione dati real-time |
+| JUSTWEB   | data ingestion, streaming/pipeline dati e progettazione database                   |
+| CREATECK  | forecasting, simulazione, routing, scheduling, replanning e algoritmi decisionali |
+| DIGIPLUS  | integrazione servizi backend Kafka-based e sviluppo frontend dashboard/Gantt       |
+| ANALYST   | visualizzazione dati geospaziali e sviluppo della Living Map                       |
