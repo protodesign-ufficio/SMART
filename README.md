@@ -69,7 +69,7 @@ Repository di coordinamento del progetto SMART
     *Tecnologie*: Apache Kafka, Telegraf  
 
 
-- [DATABASE](https://github.com/protodesign-ufficio/DBs)  
+- [DATABASE](http://87.26.178.190:8080/)  
   **Descrizione**: repository per la definizione, creazione e gestione delle strutture dati persistenti del sistema.
 
   - **JUSTWEB**  
