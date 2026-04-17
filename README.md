@@ -94,7 +94,7 @@ Repository di coordinamento del progetto SMART
 - [LIVING-MAP](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)  
   **Descrizione**: frontend del sistema con componenti di visualizzazione dati, dashboard analytics e mappa interattiva.
 
-  - **ANALYST**  
+  - **ANALIST**  
     - [Living Map](https://github.com/protodesign-ufficio/SMART-LIVINGMAP)
 
 
@@ -118,4 +118,4 @@ Repository di coordinamento del progetto SMART
 | JUSTWEB   | data ingestion, streaming/pipeline dati e progettazione database                   |
 | CREATECK  | forecasting, simulazione, routing, scheduling, replanning e algoritmi decisionali |
 | DIGIPLUS  | integrazione servizi backend Kafka-based e sviluppo frontend dashboard/Gantt       |
-| ANALYST   | visualizzazione dati geospaziali e sviluppo della Living Map                       |
+| ANALIST   | visualizzazione dati geospaziali e sviluppo della Living Map                       |
